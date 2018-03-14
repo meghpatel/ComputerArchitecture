@@ -102,16 +102,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(280,360)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="4" loc="(450,200)" name="RAM">
       <a name="dataWidth" val="2"/>
       <a name="bus" val="separate"/>
     </comp>
     <comp lib="6" loc="(113,137)" name="Text">
       <a name="text" val="PUSH"/>
+    </comp>
+    <comp lib="1" loc="(280,360)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(310,460)" name="Clock"/>
     <comp lib="0" loc="(120,160)" name="Pin">
@@ -123,9 +123,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="4" loc="(370,410)" name="Counter"/>
     <comp lib="0" loc="(120,310)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(120,420)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
   </circuit>
